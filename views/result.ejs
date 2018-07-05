@@ -3,13 +3,12 @@
         background-color: lightyellow;
     }
 </style>
-<div style="background-color: antiquewhite;">
-<h1>Result Page</h1>
 
+<h1 style="text-align: center;"><u>Result Page</u></h1>
+<div style="margin-left: 30%;margin-top: 10%;">
 <% name["Search"].forEach(function(body){%>
     <li>
-        <%=body["Title"]%> -
-            <%=body["Year"]%>
+       <strong><%=body["Title"]%></strong> - <%=body["Year"]%>
     </li>
 
     <%}) %>
