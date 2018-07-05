@@ -1,0 +1,17 @@
+<style>
+    * {
+        background-color: lightyellow;
+    }
+</style>
+<div style="background-color: antiquewhite;">
+<h1>Result Page</h1>
+
+<% name["Search"].forEach(function(body){%>
+    <li>
+        <%=body["Title"]%> -
+            <%=body["Year"]%>
+    </li>
+
+    <%}) %>
+
+</div>
