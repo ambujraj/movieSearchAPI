@@ -1,0 +1,23 @@
+{
+  "name": "moviesearchapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambujraj/movieSearchAPI.git"
+  },
+  "author": "Ambuj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambujraj/movieSearchAPI/issues"
+  },
+  "homepage": "https://github.com/ambujraj/movieSearchAPI#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
