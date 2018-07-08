@@ -1,14 +1,19 @@
 <style>
-    * {
-        background-color: lightyellow;
+    body {
+        background-image: url("../img/a.jpg");
+        height: 100%;
+        background-position: fill;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        color: white;
     }
 </style>
 
-<h1 style="text-align: center;"><u>Result Page</u></h1>
+<h1 style="text-align: center;color: #7c5d5d;"><u>Result Page</u></h1>
 <div style="margin-left: 30%;margin-top: 10%;">
 <% name["Search"].forEach(function(body){%>
     <li>
-      <h1> <strong><%=body["Title"]%></strong> - <%=body["Year"]%> </h1>
+      <h2> <strong><%=body["Title"]%></strong> - <%=body["Year"]%> </h2>
     </li>
 
     <%}) %>
